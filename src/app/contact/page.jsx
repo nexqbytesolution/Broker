@@ -248,6 +248,19 @@ export default function Contact() {
           </div>
         </div>
       </section>
+      <section className="w-full bg-gray-400 py-2 px-5 flex justify-center ">
+        <div className=" w-full">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d265.0858342352301!2d85.28017011958912!3d27.7053973376283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19146f6bb4d1%3A0xb3b60d85736ed200!2sSwami!5e0!3m2!1sen!2snp!4v1772309090455!5m2!1sen!2snp"
+            width="100%"
+            height="450"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="block"
+          ></iframe>
+        </div>
+      </section>
 
       {/* Contact Info Bar - 10% Black/Dark */}
       <section className="bg-gray-900 text-gray-300 py-6">
@@ -264,7 +277,7 @@ export default function Contact() {
             <div className="flex items-center gap-2 hover:text-white transition-colors">
               <MapPin className="w-4 h-4 text-blue-400" />
               <span className="text-sm">
-                123 Business Ave, Suite 100, NY 10001
+                Bafal, Sitapaila, Kathmandu, Nepal
               </span>
             </div>
             <div className="flex gap-4">

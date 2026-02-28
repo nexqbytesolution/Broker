@@ -174,9 +174,12 @@ export default function ContactForm() {
       <form onSubmit={handleSubmit} className="space-y-6">
         {/* Name and Email - 60% White */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="space-y-2">
-            <label htmlFor="name" className={labelClasses}>
-              Full Name <span className="text-blue-600">*</span>
+          <div className="space-y-2 ">
+            <label
+              htmlFor="name"
+              className="block text-sm font-medium text-black  mb-2"
+            >
+              Full Name <span className="text-red-600 ">*</span>
             </label>
             <div className="relative">
               <User
