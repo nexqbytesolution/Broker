@@ -91,7 +91,7 @@ export default function Contact() {
                 className="group bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 p-6 border border-gray-100"
               >
                 <div
-                  className={`bg-gradient-to-br ${item.color} w-14 h-14 rounded-xl flex items-center justify-center mb-4 text-white shadow-lg group-hover:scale-110 transition-transform`}
+                  className={`bg-linear-to-br ${item.color} w-14 h-14 rounded-xl flex items-center justify-center mb-4 text-white shadow-lg group-hover:scale-110 transition-transform`}
                 >
                   <item.icon className="w-7 h-7" />
                 </div>
@@ -162,7 +162,7 @@ export default function Contact() {
                 className="mb-4 bg-gray-50 rounded-xl p-6 hover:shadow-md transition-shadow border border-gray-100"
               >
                 <div className="flex items-start gap-4">
-                  <HelpCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <HelpCircle className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
                       {faq.question}
@@ -218,7 +218,7 @@ export default function Contact() {
       </section>
 
       {/* Emergency Contact Banner - 30% Blue */}
-      <section className="relative bg-gradient-to-r from-blue-600 to-blue-700 py-16 overflow-hidden">
+      <section className="relative bg-linear-to-r from-blue-600 to-blue-700 py-16 overflow-hidden">
         <div className="absolute inset-0 bg-black/10"></div>
         <div className="relative container mx-auto px-4 text-center">
           <span className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium text-white mb-6">

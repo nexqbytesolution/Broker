@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ContactHero() {
   return (
-    <div className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-24 md:py-32 overflow-hidden">
+    <div className="relative bg-linear-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-24 md:py-32 overflow-hidden">
       {/* Background Pattern - 10% Black accent */}
       <div className="absolute inset-0 bg-black/10"></div>
       <div

@@ -309,7 +309,7 @@ export default function Home() {
                     {property.title}
                   </h3>
                   <div className="flex items-center text-gray-500 mb-3">
-                    <MapPin className="w-4 h-4 mr-1 flex-shrink-0" />
+                    <MapPin className="w-4 h-4 mr-1 shrink-0" />
                     <span className="text-sm truncate">
                       {property.location}
                     </span>

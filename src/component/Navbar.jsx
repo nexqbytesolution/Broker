@@ -66,7 +66,7 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="block py-2 text-gray-600 hover:text-blue-600 transition duration-300 flex items-center space-x-2"
+                className="flex-1 py-2 text-gray-600 hover:text-blue-600 transition duration-300 flex items-center space-x-2"
                 onClick={() => setIsOpen(false)}
               >
                 <link.icon className="h-4 w-4" />

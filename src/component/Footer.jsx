@@ -96,7 +96,7 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Your email"
-                className="flex-grow px-4 py-2 rounded-l-lg text-gray-900"
+                className="grow px-4 py-2 rounded-l-lg text-gray-900"
               />
               <button className="bg-blue-600 px-4 py-2 rounded-r-lg hover:bg-blue-700 transition">
                 Subscribe

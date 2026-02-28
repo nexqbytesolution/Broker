@@ -15,25 +15,25 @@ export default function ContactInfo() {
       icon: MapPin,
       title: "Visit Us",
       details: ["123 Business Avenue", "Suite 100, NY 10001"],
-      gradient: "from-blue-500 to-blue-600",
+      linear: "from-blue-500 to-blue-600",
     },
     {
       icon: Phone,
       title: "Call Us",
       details: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
-      gradient: "from-blue-600 to-blue-700",
+      linear: "from-blue-600 to-blue-700",
     },
     {
       icon: Mail,
       title: "Email Us",
       details: ["info@primebroker.com", "support@primebroker.com"],
-      gradient: "from-blue-500 to-blue-600",
+      linear: "from-blue-500 to-blue-600",
     },
     {
       icon: Clock,
       title: "Hours",
       details: ["Mon-Fri: 9AM-6PM", "Sat: 10AM-4PM"],
-      gradient: "from-blue-600 to-blue-700",
+      linear: "from-blue-600 to-blue-700",
     },
   ];
 
@@ -47,7 +47,7 @@ export default function ContactInfo() {
             className="bg-white rounded-xl shadow-sm hover:shadow-md transition-all p-5 border border-gray-100 group"
           >
             <div
-              className={`bg-gradient-to-br ${item.gradient} w-10 h-10 rounded-lg flex items-center justify-center mb-3 text-white shadow-sm group-hover:scale-110 transition-transform`}
+              className={`bg-linear-to-br ${item.linear} w-10 h-10 rounded-lg flex items-center justify-center mb-3 text-white shadow-sm group-hover:scale-110 transition-transform`}
             >
               <item.icon className="w-5 h-5" />
             </div>
@@ -87,7 +87,7 @@ export default function ContactInfo() {
 
       {/* Bottom Row - 30% Blue & 10% Black */}
       <div className="grid grid-cols-2 gap-4">
-        <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-4 border border-blue-200">
+        <div className="bg-linear-to-br from-blue-50 to-blue-100 rounded-xl p-4 border border-blue-200">
           <h3 className="font-semibold text-gray-900 mb-2 text-sm">
             Follow Us
           </h3>

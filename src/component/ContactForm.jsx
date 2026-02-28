@@ -139,7 +139,7 @@ export default function ContactForm() {
       {/* Header - 30% Blue accent */}
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-3">
-          <div className="w-1 h-8 bg-gradient-to-b from-blue-500 to-blue-600 rounded-full"></div>
+          <div className="w-1 h-8 bg-linear-to-b from-blue-500 to-blue-600 rounded-full"></div>
           <h3 className="text-2xl font-bold text-gray-900">
             Send us a Message
           </h3>
@@ -161,11 +161,11 @@ export default function ContactForm() {
           }`}
         >
           {status.success ? (
-            <CheckCircle className="w-5 h-5 flex-shrink-0 mt-0.5" />
+            <CheckCircle className="w-5 h-5 shrink-0 mt-0.5" />
           ) : status.message !== "Sending..." ? (
-            <AlertCircle className="w-5 h-5 flex-shrink-0 mt-0.5" />
+            <AlertCircle className="w-5 h-5 shrink-0 mt-0.5" />
           ) : (
-            <div className="w-5 h-5 border-2 border-blue-600 border-t-transparent rounded-full animate-spin flex-shrink-0 mt-0.5"></div>
+            <div className="w-5 h-5 border-2 border-blue-600 border-t-transparent rounded-full animate-spin shrink-0 mt-0.5"></div>
           )}
           <span className="text-sm">{status.message}</span>
         </div>
@@ -321,12 +321,12 @@ export default function ContactForm() {
           </div>
         </div>
 
-        {/* Submit Button - 30% Blue gradient */}
+        {/* Submit Button - 30% Blue linear */}
         <div className="pt-4">
           <button
             type="submit"
             disabled={status.submitted && status.message === "Sending..."}
-            className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+            className="w-full bg-linear-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
           >
             {status.message === "Sending..." ? (
               <>

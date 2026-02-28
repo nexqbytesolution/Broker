@@ -29,7 +29,7 @@ export default function Services() {
       description:
         "Find the perfect room that matches your lifestyle, budget, and preferences. We handle all the legwork.",
       link: "/rooms",
-      gradient: "from-blue-500 to-blue-600",
+      linear: "from-blue-500 to-blue-600",
     },
     {
       icon: Map,
@@ -37,7 +37,7 @@ export default function Services() {
       description:
         "Prime locations for your dream construction or investment. Expert negotiation and due diligence.",
       link: "/land",
-      gradient: "from-blue-600 to-blue-700",
+      linear: "from-blue-600 to-blue-700",
     },
     {
       icon: Building2,
@@ -45,7 +45,7 @@ export default function Services() {
       description:
         "Professional spaces for your business with modern amenities and flexible lease terms.",
       link: "/office",
-      gradient: "from-blue-500 to-blue-600",
+      linear: "from-blue-500 to-blue-600",
     },
     {
       icon: Wrench,
@@ -53,7 +53,7 @@ export default function Services() {
       description:
         "Complete property management services including maintenance, tenant screening, and rent collection.",
       link: "/services",
-      gradient: "from-blue-600 to-blue-700",
+      linear: "from-blue-600 to-blue-700",
     },
     {
       icon: FileText,
@@ -61,7 +61,7 @@ export default function Services() {
       description:
         "Expert assistance with all legal paperwork, contracts, and compliance requirements.",
       link: "/services",
-      gradient: "from-blue-500 to-blue-600",
+      linear: "from-blue-500 to-blue-600",
     },
     {
       icon: Handshake,
@@ -69,7 +69,7 @@ export default function Services() {
       description:
         "Strategic advice for property investors. Market analysis and ROI optimization.",
       link: "/services",
-      gradient: "from-blue-600 to-blue-700",
+      linear: "from-blue-600 to-blue-700",
     },
   ];
 
@@ -120,7 +120,7 @@ export default function Services() {
       </Head>
 
       {/* Hero Section - 30% Blue */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-24">
+      <section className="relative bg-linear-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-24">
         <div className="absolute inset-0 bg-black/10"></div>
         <div className="relative container mx-auto px-4 text-center">
           <span className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium mb-6">
@@ -207,7 +207,7 @@ export default function Services() {
       </section>
 
       {/* CTA Section - 30% Blue */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-700 py-16">
+      <section className="bg-linear-to-r from-blue-600 to-blue-700 py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
             Ready to Get Started?
